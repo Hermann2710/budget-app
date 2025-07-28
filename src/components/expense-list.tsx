@@ -38,7 +38,7 @@ export default function ExpenseList() {
             </div>
             <button
               onClick={() => handleDelete(expense.id)}
-              className='text-red-500 font-bold text-lg ml-2'
+              className='text-red-500 font-bold text-lg ml-2 cursor-pointer'
             >
               <Trash2 />
             </button>

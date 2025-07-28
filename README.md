@@ -1,30 +1,67 @@
-# React + TypeScript + Vite
+# Budget App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Une application de gestion de budget simple et moderne, développée avec React, TypeScript et Vite.
 
-Currently, two official plugins are available:
+## ✨ Fonctionnalités principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ajouter, modifier et supprimer des budgets
+- Ajouter et lister des dépenses par budget
+- Visualisation claire des dépenses
+- Interface responsive et moderne
+- UI basée sur [shadcn/ui] et icônes [lucide-react]
 
-## Expanding the ESLint configuration
+## 🚀 Démarrage rapide
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prérequis
 
-- Configure the top-level `parserOptions` property like this:
+- [Node.js](https://nodejs.org/) >= 16
+- [pnpm](https://pnpm.io/)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Installation
+
+```bash
+pnpm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Lancer le projet en développement
+
+```bash
+pnpm dev
+```
+
+Le projet sera accessible sur [http://localhost:5173](http://localhost:5173)
+
+## 🛠️ Technologies utilisées
+
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [lucide-react](https://lucide.dev/)
+- [pnpm](https://pnpm.io/)
+
+## 📁 Structure du projet
+
+```
+src/
+  components/      // Composants UI (formulaires, listes, header...)
+  contexts/        // Contexts React pour la gestion d'état
+  types/           // Types TypeScript
+  App.tsx          // Point d'entrée principal
+```
+
+## 🤝 Contribuer
+
+1. Fork le repo
+2. Crée une branche (`git checkout -b feature/ma-fonctionnalite`)
+3. Commit tes changements (`git commit -am 'feat: nouvelle fonctionnalité'`)
+4. Push la branche (`git push origin feature/ma-fonctionnalite`)
+5. Ouvre une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT.
+
+---
+
+> UI propulsée par [shadcn/ui] et [lucide-react]. Responsive design inclus.
