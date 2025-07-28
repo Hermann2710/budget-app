@@ -10,7 +10,7 @@ export default function ExpenseList() {
 
   if (state.expenses.length === 0) {
     return (
-      <p className='text-gray-500 mt-4'>
+      <p className='text-gray-500 mt-4 text-center'>
         Aucune dépense enregistrée pour le moment.
       </p>
     )
